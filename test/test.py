@@ -106,7 +106,7 @@ if __name__ == "__main__":
         "red", "green", "blue"
     )
 
-    # 初始化串口
+    # 初始化串口,波特率
     ser = serial.Serial('/dev/ttyAMA0', 19200, timeout=1)  
 
     cap = cv2.VideoCapture(0)
